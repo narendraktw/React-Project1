@@ -24,7 +24,7 @@ function NameList() {
     }
   ]
   //const personList = persons.map(person => <Person key={person.id} person={person} />)
-  const nameList = names.map((name,index) => <h2 key={index}>{index} {name}</h2>) //index value as a key
+  const nameList = names.map((name,index) => <h2 key={index}>{index} {name}</h2>) //index value as a key 
   return <div>{nameList}</div>
 }
 
