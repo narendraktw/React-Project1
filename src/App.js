@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component} from 'react';
 import './App.css';
 import DataFetching from './components/DataFetching';
 //import HookMouse from './components/HookMouse';
