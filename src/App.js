@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import './App.css';
-import HookCounter from './components/HookCounter';
+import DataFetching from './components/DataFetching';
+//import HookMouse from './components/HookMouse';
+//import MouseContainer from './components/MouseContainer';
+//import UseEffect from './components/UseEffect';
 // import Greet from './components/Greet'
  //import Welcome from './components/Welcome'
 // import Message from './components/Message'
@@ -15,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HookCounter/>
+        <DataFetching/>
       </div>
     )
 }}
