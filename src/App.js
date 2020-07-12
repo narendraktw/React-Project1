@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import './App.css';
-import DataFetching from './components/DataFetching';
+import DataFetchUseState from './components/DataFetchUseState';
 //import HookMouse from './components/HookMouse';
 //import MouseContainer from './components/MouseContainer';
 //import UseEffect from './components/UseEffect';
@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <DataFetching/>
+        <DataFetchUseState/>
       </div>
     )
 }}
