@@ -14,7 +14,7 @@ const reducer = (state, action) => {
 	}
 }
 
-function UserReducerExm3() {
+function UseReducerExm3() {
 	const [count, dispatch] = useReducer(reducer, initialState)
 	const [countTwo, dispatchTwo] = useReducer(reducer, initialState)
 
@@ -33,4 +33,4 @@ function UserReducerExm3() {
 	)
 }
 
-export default UserReducerExm3
+export default UseReducerExm3
